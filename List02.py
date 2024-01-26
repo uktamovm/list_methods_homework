@@ -1,11 +1,4 @@
 def main(fruits,x,i):
-    """
-    You will be given a list of fruits. Add the x fruit to the i index and return it.
-    Args:
-        fruits(list): parameter 
-        x(str): parameter
-        i(int): parameter
-    Returns:
-        list: return answer
-    """
-    return
+    fruits.insert(i,"kiwi")
+    return fruits
+print(main(["apple","banana"],"kiwi",1))
